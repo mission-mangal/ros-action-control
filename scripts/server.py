@@ -8,7 +8,6 @@ class MissionActionServer:
     def __init__(self):
         # Initialize ROS node
         rospy.init_node('mission_server_node')
-
         # Create an action server
         self.server = actionlib.SimpleActionServer('mission_server', MissionActionAction, self.execute, False)
         self.server.start()

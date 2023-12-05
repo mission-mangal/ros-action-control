@@ -1,0 +1,9 @@
+# MissionAction.action
+float32 yaw_angle
+int64[] x_coordinates
+int64[] y_coordinates
+bool obstacle_info
+---
+string result
+---
+string feedback

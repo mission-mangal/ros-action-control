@@ -24,6 +24,12 @@ This repository contains an example demonstrating the usage of ROS (Robot Operat
     catkin_make
     ```
 
+3. Source your workspace:
+
+    ```bash
+    source devel/setup.bash
+    ```
+
 ### Usage
 
 1. Launch the ROS core:
